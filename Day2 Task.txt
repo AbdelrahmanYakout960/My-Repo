@@ -1,13 +1,37 @@
 1-Make a project deployment.
-2-what is pull request and request & differrent bettween them?
-3-Make fork from your project and use it from anthor account 
-4-What is the command to delete the branch "new-email"
-5-What is the command to push the current repository to the remote origin?
-6-what is git Rebase and how to use it ?
-7-What is the command to get all the change history of the remote repository "origin"?
-8-What is the command to show the differences between the current branch and the branch "new-email"?
-9-what is tags and Make five tags and release two of them?
+	https://abdelrahmanyakout960.github.io/My-Repo/
 
+2-what is pull request and request & differrent bettween them?
+	Pull Request is a GitHub feature to propose changes from one branch to the main branch.
+	Request is a general action (not Git-specific), just asking for something.
+
+4-What is the command to delete the branch "new-email"
+	git branch -d (or -D) new-email
+
+5-What is the command to push the current repository to the remote origin?
+	git push origin main
+
+6-what is git Rebase and how to use it ?
+	Moves commits to start on a new base commit
+
+7-What is the command to get all the change history of the remote repository "origin"?
+	git log origin
+	git fetch origin
+	git log origin/main
+
+8-What is the command to show the differences between the current branch and the branch "new-email"?
+	git diff new-email
+
+9-what is tags and Make five tags and release two of them?
+	a tag is a pointer to a specific commit (version)
+		git tag v1.0
+		git tag v1.1
+		git tag v1.2
+		git tag v2.0
+		git tag v2.1
+			git push origin v1.0
+			git push origin v2.0
 
 Bouns :
 Make SSh to your repo.
+	Screenshot SSH.img
